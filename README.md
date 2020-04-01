@@ -4,5 +4,5 @@
 
 #### 简介
 
-​		vue+esmap+springboot构建
+​		vue3.0+esmap+springboot2.2.5+构建
 
