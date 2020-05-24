@@ -2,7 +2,7 @@
   <div class="welcome">
     <Header :activeIndex="'1'" />
     <div class="slider-box">
-      <Slider animation="fade" v-model="sliderValue" height="450px" :speed="500" :interval="3000">
+      <Slider animation="fade" v-model="sliderValue" height="300px" :speed="500" :interval="3000">
         <SliderItem v-for="(i, index) in sliderList" :key="index" @click="changeIndex(1);" :style="i.style">
           <p class="nav-content">{{i.content}}</p>
         </SliderItem>
@@ -130,12 +130,13 @@ export default {
 }
 .nav-content {
   line-height: 150px;
-  font-size: 4rem;
+  font-size: 3rem;
   text-align: center;
   color: #fff;
   position: absolute;
-  top: 150px;
+  top: 50%;
   left: 100px;
+  transform: translateY(-50%)
 }
 .slider-box {
   background-color: #1c222c;

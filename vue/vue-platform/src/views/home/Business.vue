@@ -4,7 +4,7 @@
 </template>
 <script>
 export default {
-  name: '',
+  name: '店铺周边/商家入驻',
   components: {
   },
   data() {

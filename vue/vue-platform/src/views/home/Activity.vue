@@ -4,7 +4,7 @@
 </template>
 <script>
 export default {
-  name: '',
+  name: '店铺周边/推广促销',
   components: {
   },
   data() {

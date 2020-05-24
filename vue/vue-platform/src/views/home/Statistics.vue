@@ -4,7 +4,7 @@
 </template>
 <script>
 export default {
-  name: '',
+  name: '数据统计监控',
   components: {
   },
   data() {

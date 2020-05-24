@@ -5,14 +5,13 @@
       <el-menu-item index="/index/welcome">首页</el-menu-item>
       <el-submenu index="/guide">
         <template slot="title">指南</template>
-        <el-menu-item index="2-1">应用背景</el-menu-item>
-        <el-menu-item index="2-2">使用指南</el-menu-item>
+        <el-menu-item index="#?p=1">应用背景</el-menu-item>
+        <el-menu-item index="#?p=2">使用指南</el-menu-item>
       </el-submenu>
       <el-menu-item index="/index/visual">三维可视化</el-menu-item>
       <el-menu-item index="/index/experience-online">在线体验</el-menu-item>
-      <el-menu-item index="/about">关于</el-menu-item>
-      <el-menu-item index="/login">登录</el-menu-item>
-
+      <el-menu-item index="#?p=3">关于</el-menu-item>
+      <el-menu-item index="/index/login">登录</el-menu-item>
     </el-menu>
   </div>
 </template>

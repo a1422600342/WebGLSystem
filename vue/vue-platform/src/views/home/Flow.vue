@@ -4,7 +4,7 @@
 </template>
 <script>
 export default {
-  name: '',
+  name: '流量监控/流量访问',
   components: {
   },
   data() {
