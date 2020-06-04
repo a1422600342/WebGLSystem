@@ -5,7 +5,7 @@
       <div class="menu">
         <div class="menu-item">
           <div class="menu-title">监控平台</div>
-          <div class="menu-box">数据统计监控</div>
+          <div class="menu-box" @click="goRouter('/platform/statistics')">数据统计监控</div>
           <div class="shop-info">
             <el-table :data="shopFlowData" stripe class="shop-info-table">
               <el-table-column prop="shopName" label="店名" width="180">

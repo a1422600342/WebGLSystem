@@ -28,7 +28,8 @@ const routes = [
     children: [
       {path:'home',component: () => import('@/views/home/Home.vue')},
       {path:'userInfo',component: () => import('@/views/home/PersonInfo.vue')},
-      {path:'shopInfo',component: () => import('@/views/home/ShopInfo.vue')}
+      {path:'shopInfo',component: () => import('@/views/home/ShopInfo.vue')},
+      {path:'statistics',component: () => import('@/views/home/Statistics.vue')}
     ]
   },
   {path:'/realFlow',component: () => import('@/components/home/RealFlowChart.vue')}
