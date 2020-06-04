@@ -34,6 +34,7 @@
         </div>
       </div>
       <div class="view">
+        <iframe src="http://www.dongzf.site/esmap/one/" frameborder="0" width="100%" height="100%"/>
         <div id="map-view"></div>
       </div>
     </div>
@@ -80,7 +81,7 @@
     created() {
     },
     mounted() {
-      this.mapInit()
+      //this.mapInit()
     },
     computed: {
     },
