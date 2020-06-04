@@ -27,7 +27,7 @@
         <div class="menu-item">
           <div class="menu-title">流量监控</div>
           <div class="menu-box">访问流量</div>
-          <div class="menu-box">电子设备</div>
+          <div class="menu-box" @click="goRouter('/platform/cameraDevice')">电子设备</div>
           <div class="real-flow-box">
             <RealFlowChart />
           </div>
