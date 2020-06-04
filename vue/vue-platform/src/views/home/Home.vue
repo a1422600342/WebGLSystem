@@ -54,17 +54,17 @@
     data() {
       return {
         shopFlowData: [
-          { shopName: "屈臣氏", flow: "456" },
-          { shopName: "屈臣氏", flow: "456" },
-          { shopName: "屈臣氏", flow: "456" },
-          { shopName: "屈臣氏", flow: "456" },
-          { shopName: "屈臣氏", flow: "456" },
-          { shopName: "屈臣氏", flow: "456" },
-          { shopName: "屈臣氏", flow: "456" },
-          { shopName: "屈臣氏", flow: "456" },
-          { shopName: "屈臣氏", flow: "456" },
-          { shopName: "屈臣氏", flow: "456" },
-          { shopName: "屈臣氏", flow: "456" }
+          { shopName: "屈臣氏", flow: "123" },
+          { shopName: "肯德基", flow: "111" },
+          { shopName: "麦当劳", flow: "121" },
+          { shopName: "Adidas", flow: "58" },
+          { shopName: "Nike", flow: "66" },
+          { shopName: "爱果果", flow: "18" },
+          { shopName: "星巴克", flow: "152" },
+          { shopName: "宜家", flow: "102" },
+          { shopName: "Superior", flow: "78" },
+          { shopName: "鸿星尔克", flow: "33" },
+          { shopName: "瑞尔", flow: "45" }
         ]
       }
     },
@@ -113,12 +113,14 @@
     padding: 30px;
     width: 200px;
     text-align: center;
-    background-color: indigo;
-    color: white;
+    opacity: .6;
+    color: black;
     margin-top: 1px;
   }
-
+  .menu-title{
+  }
   .menu-box {
+    background-color: cadetblue;
     cursor: pointer;
   }
 

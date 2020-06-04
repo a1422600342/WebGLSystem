@@ -81,7 +81,7 @@
                             type: 'value',
                             scale: true,
                             name: '流量',
-                            max: 1200,
+                            max: 100,
                             min: 0,
                             boundaryGap: [0.2, 0.2]
                         }
@@ -96,7 +96,7 @@
                                 var res = [];
                                 var len = 10;
                                 while (len--) {
-                                    res.push(Math.round(Math.random() * 1000));
+                                    res.push(Math.round(Math.random() * 30));
                                 }
                                 return res;
                             })()
@@ -131,7 +131,7 @@
                     var data0 = option.series[0].data;
                     var data1 = option.series[1].data;
                     data0.shift();
-                    data0.push(Math.round(Math.random() * 1000));
+                    data0.push(Math.round(Math.random() * 30));
                     data1.shift();
                     data1.push((Math.random() * 10 + 5).toFixed(1) - 0);
                     option.xAxis[0].data.shift();

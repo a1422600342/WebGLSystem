@@ -37,16 +37,10 @@ export default {
       sliderValue: 2,
       topShop: {
         tableData: [
-          { name: "123", location: "345", time: "123" },
-          { name: "123", location: "345", time: "123" },
-          { name: "123", location: "345", time: "123" },
-          { name: "123", location: "345", time: "123" },
-          { name: "123", location: "345", time: "123" },
-          { name: "123", location: "345", time: "123" },
-          { name: "123", location: "345", time: "123" },
-          { name: "123", location: "345", time: "123" },
-          { name: "123", location: "345", time: "123" },
-          { name: "123", location: "345", time: "123" }
+        { name: "爱果果", shopType: "销售业务", location: "1层 0410空间", time: "10点-22点", businessMan: "赵六" },
+          { name: "Nike", shopType: "品牌业务", location: "2层 0507空间", time: "10点-22点", businessMan: "孙琪" },
+          { name: "Adidas", shopType: "品牌业务", location: "2层 0508空间", time: "10点-22点", businessMan: "周八" },
+          { name: "星巴克", shopType: "餐饮业务", location: "1层 0411空间", time: "10点-22点", businessMan: "吴九" }
         ],
         tableColumns: [
           { prop: "name", label: "名称" },
